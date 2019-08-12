@@ -1,0 +1,39 @@
+/* Estilos para HTML Y BODY */
+html,body {
+  margin: 0;
+  width: 100%;
+  height: 100%
+}
+
+/* Contenedor principal header */
+#main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #03A9F4;
+  padding: 8px;
+}
+
+/* Contenedor de imagen y texto */
+.logo-container {
+  display: flex;
+  align-items: center;
+  font-size: 32px;
+}
+
+/* Clase para la imagen del logo */
+.small-logo {
+  width: 72px;
+}
+
+/* Subtitlo */
+.subtitle {
+  font-size: 12px;
+  margin: 0;
+  color: #03A9F4;
+  font-style: italic;
+}
+
+.logo-container div {
+  margin-left: 8px;
+}
